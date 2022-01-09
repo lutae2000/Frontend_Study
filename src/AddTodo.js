@@ -4,8 +4,8 @@ import { TextField, Paper, Button, Grid } from "@material-ui/core";
 class AddTodo extends React.Component {
   constructor(props) {
     super(props);
+    this.state = { item: { title: "" } };
     this.add = props.add;
-    this.state = { item: { title: "" } }; //사용자 입력 저장 오브젝트
   }
 
   onInputChange = (e) => {
@@ -30,7 +30,7 @@ class AddTodo extends React.Component {
     return (
       <Paper style={{ margin: 16, padding: 16 }}>
         <Grid container>
-          <Grid xs={11} item style={{ padding: 16 }}>
+          <Grid xs={11} md={11} item style={{ paddingRight: 16 }}>
             <TextField
               placeholder="Add Todo here"
               fullWidth
