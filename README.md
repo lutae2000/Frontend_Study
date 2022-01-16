@@ -1,3 +1,19 @@
+# Back-end Study
+
+마이크로서비스 아키텍쳐를 위한 프론트엔드 / 백엔드 분리 연습 프로젝트
+
+React.js 구현된 프론트엔드 구현부
+사용된 기술
+
+- Material UI 라이브러리
+- JWT 인증 처리된것은 Local storage에 저장 / 삭제 => 세션과 달리 브라우저를 닫아도 유지됨, URL에따라 다르게 저장, 타 URL 셔비스에 영향 없음
+- fetch 공통함수 만들기
+- react router dom 사용
+
+참고: React.js 스프링부트 AWS로 배우는 웹개발 101
+
+![스크린샷 2022-01-02 오전 4 16 11](https://user-images.githubusercontent.com/40047335/147858457-e94eae7d-9c5e-4809-b06f-09257b821fbd.png)
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
